@@ -1,0 +1,132 @@
+.container {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-template-areas: "header"
+        "content"
+        "footer";
+    grid-template-rows: 1.5fr 6fr 2fr;
+    height: 1200px;
+}
+
+.header {
+    display: grid;
+    position: relative;
+    text-align: center;
+    grid-template-areas: "header_top"
+        "header_bottom";
+    grid-template-rows: 3fr 1fr;
+
+}
+
+.header_top {
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+
+.header_botton {
+    background-color: rgb(80, 190, 70);
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.navi {
+    padding-top: 5px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+.content {
+    background-color: rgba(128, 128, 128, 0.37);
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    z-index: 0;
+    font-size: 20px;
+}
+
+.content_left {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    /* block 은 상하정렬 해주고 크기 조절을 위해 inline을 추가한다.*/
+    position: relative;
+    padding: 20px 0px 20px 0px;
+    width: 700px;
+    height: 700px;
+}
+
+.content_right {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+    width: 300px;
+    height: 700px;
+}
+
+.left_box1 {
+    background-color: rgba(189, 67, 67, 0.459);
+    text-align: center;
+    display: inline-block;
+    /* block 은 상하정렬 해주고 크기 조절을 위해 inline을 추가한다.*/
+    position: relative;
+    padding: 90px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 600px;
+    height: 150px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+.left_box2 {
+    background-color: rgb(67, 189, 189);
+    text-align: center;
+    display: inline-block;
+    /* block 은 상하정렬 해주고 크기 조절을 위해 inline을 추가한다.*/
+    position: relative;
+    padding: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 600px;
+    height: 150px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+.right_box1 {
+    background-color: rgb(159, 209, 79);
+    text-align: center;
+    display: inline-block;
+    /* block 은 상하정렬 해주고 크기 조절을 위해 inline을 추가한다.*/
+    position: relative;
+    padding: 90px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+.right_box2 {
+    background-color: rgb(183, 204, 148);
+    text-align: center;
+    display: inline-block;
+    /* block 은 상하정렬 해주고 크기 조절을 위해 inline을 추가한다.*/
+    position: relative;
+    padding: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
